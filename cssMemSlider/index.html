@@ -4,7 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cssMemSlider</title>
+    <link rel="stylesheet" href="css/nullstyle.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="slider-wrapper">
+        <div class="slider">
+          <input type="radio" name="slider" id="s1" checked />
+          <div class="slide">
+            <figure class="slide-figure">
+              <img class="slide-img" src="img/dogz.jpg" alt="" />
+              <figcaption class="slide-caption"><p>Your code with JS. Your code without JS.</p></figcaption>
+            </figure>
+          </div>
+          <input type="radio" name="slider" id="s2" />
+          <div class="slide">
+            <figure class="slide-figure">
+              <img class="slide-img" src="img/hand_shake.jpg" alt="" />
+              <figcaption class="slide-caption"><p>JS + CSS EPIC COMBO!</p></figcaption>
+            </figure>
+          </div>
+          <input type="radio" name="slider" id="s3" />
+          <div class="slide">
+            <figure class="slide-figure">
+              <img class="slide-img" src="img/hot_girl.jpg" alt="" />
+              <figcaption class="slide-caption"><p>You looking at a new IDE.</p></figcaption>
+            </figure>
+          </div>
+          <input type="radio" name="slider" id="s4" />
+          <div class="slide">
+            <figure class="slide-figure">
+              <img class="slide-img" src="img/in_bed.jpg" alt="" />
+              <figcaption class="slide-caption"><p>Why the hell you have to put time stamp on commit? It already has bult in date.</p></figcaption>
+            </figure>
+          </div>
+        </div>
+        <ul class="bullets">
+          <li class="bullets__item"><label class="bullets__label" for="s1"></label></li>
+          <li class="bullets__item"><label class="bullets__label" for="s2"></label></li>
+          <li class="bullets__item"><label class="bullets__label" for="s3"></label></li>
+          <li class="bullets__item"><label class="bullets__label" for="s4"></label></li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
